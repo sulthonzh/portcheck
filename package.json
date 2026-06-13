@@ -1,0 +1,35 @@
+{
+  "name": "portcheck",
+  "version": "1.0.0",
+  "description": "Check if TCP ports are in use — batch scan ranges, JSON output, CI mode. Zero dependencies.",
+  "bin": {
+    "portcheck": "./cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "port",
+    "tcp",
+    "scan",
+    "port-scanner",
+    "network",
+    "ci",
+    "devops"
+  ],
+  "license": "MIT",
+  "author": "sulthonzh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/portcheck"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md"
+  ]
+}
